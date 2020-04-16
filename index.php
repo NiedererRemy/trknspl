@@ -19,9 +19,9 @@ require_once('system/data.php');
 </head>
 <body>
 
-    <h1>Trinkspiel Versuch 2</h1>
+    <h1>MMP TRINK-SPIEL</h1>
       <a class="box_mitte" href="<?php echo $base_url; ?>/subsite/spielen.php">
-        <button type="button" class="btn btn-primary btn-lg">Spielen</button>
+        <button type="button" class="btn btn-danger btn-lg btn-block"><p>Spielen</p></button>
       </a>
 
   </div>

@@ -20,6 +20,12 @@ function get_db_connection(){
 
 // ********************************************************
 
+function datebankhole(){
+	$db = get_db_connection();
+	$sql = "SELECT `auftrag` FROM `Trinkspielkarten`ORDER BY RAND ( ) LIMIT 1";
+	$result = $db->query($sql);
+	return $result->fetch();
+}
 
 // function selektiere_alle_rezepte(){
 // 	$db = get_db_connection();

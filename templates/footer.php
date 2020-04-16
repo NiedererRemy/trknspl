@@ -1,3 +1,3 @@
   <footer class="fixed-bottom bg-secondary text-white text-center">
-      <p>made by professional hacker Rémy Niederer</p>
+      <h2>made by professional hacker Rémy Niederer</h2>
   </footer>
