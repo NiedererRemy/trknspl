@@ -27,6 +27,23 @@ function datebankhole(){
 	return $result->fetch();
 }
 
+
+function alleauftraege(){
+	$db = get_db_connection();
+	$sql = "SELECT * FROM `Trinkspielkarten`";
+	$result = $db->query($sql);
+	return $result->fetchAll();
+}
+
+
+function datebankholealle(){
+	$db = get_db_connection();
+	$sql = "SELECT `auftrag` FROM `Trinkspielkarten`ORDER BY RAND ( )";
+	$result = $db->query($sql);
+	return $result->fetchAll();
+}
+
+
 // function selektiere_alle_rezepte(){
 // 	$db = get_db_connection();
 // 	$sql = 	"SELECT * FROM rezepte;";

@@ -20,9 +20,48 @@ require_once('system/data.php');
 <body>
 
     <h1>MMP TRINK-SPIEL</h1>
-      <a class="box_mitte" href="<?php echo $base_url; ?>/subsite/spielen.php">
-        <button type="button" class="btn btn-danger btn-lg btn-block"><p>Spielen</p></button>
-      </a>
+
+
+    <!-- Startknopf -->
+
+
+
+      <div class="container">
+        <div class="row">
+          <div class="col-2">
+            <!-- leerer platz links -->
+          </div>
+          <div class="col-8">
+            <a  href="<?php echo $base_url; ?>/subsite/spielen.php">
+              <button type="button" class="btn btn-success btn-lg btn-block"><h1>GO</h1></button>
+            </a>
+          </div>
+          <div class="col-2">
+            <!-- leerer platz rechts -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Spielregel Knopf -->
+
+      <div class="container">
+        <div class="row">
+          <div class="col-2">
+            <!-- Content -->
+          </div>
+          <div class="col-8">
+            <a href="<?php echo $base_url; ?>/subsite/spielregeln.php">
+              <button type="button" class="btn btn-danger btn-md btn-block"><h2>Spielregeln</h2></button>
+            </a>
+          </div>
+          <div class="col-2">
+            <!-- Content -->
+          </div>
+        </div>
+      </div>
+
+
+
 
   </div>
 
