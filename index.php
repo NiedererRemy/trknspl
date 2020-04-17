@@ -33,9 +33,9 @@ require_once('system/data.php');
           </div>
           <div class="col-8">
             <a  href="<?php echo $base_url; ?>/subsite/spielen.php">
-              <button type="button" class="btn btn-success btn-lg btn-block"><h1>GO</h1></button>
+              <button type="button" class="btn btn-dark btn-lg btn-block"><h1>GO</h1></button>
             </a>
-          </div>
+  </div>
           <div class="col-2">
             <!-- leerer platz rechts -->
           </div>
@@ -51,7 +51,7 @@ require_once('system/data.php');
           </div>
           <div class="col-8">
             <a href="<?php echo $base_url; ?>/subsite/spielregeln.php">
-              <button type="button" class="btn btn-danger btn-md btn-block"><h2>Spielregeln</h2></button>
+              <button type="button" class="btn btn-secondary btn-lg btn-block"><h2 class="spielregeln">Spielregeln</h2></button>
             </a>
           </div>
           <div class="col-2">
@@ -60,6 +60,7 @@ require_once('system/data.php');
         </div>
       </div>
 
+<p class="zumwohl"> Zum Wohl </p>
 
 
 

@@ -24,16 +24,12 @@ require_once('../system/data.php');
 
 
 <!-- Spielregel -->
-      <div class="card">
-        <div class="card-body">
 
 
-          <h3>Zuerst einmal muss jeder Alkohol in der Hand haben. Die Fahrer alkoholfreie Getränke. Das Handy wird rechtsherumgegeben. Der Auftrag zählt immer für denjenigen, der das Handy in der Hand hat ausser es steht ausdrücklich: "An alle".</h3>
+          <p class="spielregeltext">Zuerst einmal muss jeder Alkohol in der Hand haben. Die Fahrer alkoholfreie Getränke. Das Handy wird rechtsherumgegeben. Der Auftrag zählt immer für denjenigen, der das Handy in der Hand hat ausser es steht ausdrücklich: "An alle".</p>
 
 
 
-        </div>
-      </div>
 
 <!-- Buttons-->
 
@@ -53,8 +49,8 @@ require_once('../system/data.php');
       <button type="button" class="btn btn-success btn-lg btn-block"><h1>GO</h1></button>
     </a>
 
-    <a href="https://698387-16.web1.fh-htwchur.ch">
-      <button type="button" class="btn btn-secondary btn-block"><h2>Home</h2></button>
+    <a href="https://698387-16.web1.fh-htwchur.ch/">
+      <button type="button" class="btn btn-secondary btn-lg btn-block"><h2 class="spielregeln">Home</h2></button>
     </a>
 
 

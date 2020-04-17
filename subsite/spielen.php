@@ -25,15 +25,20 @@ shuffle($alleauftraege);
 <body>
 
   <!-- Karten  -->
-  <div class="card">
-    <div class="card-body">
+<section class="spielplatz">
+          <article></article>
+          <article>  </article>
+          <article></article>
+          <article class="spielartikel">
+              <p id="auftrag">HALLOTOBI</p>
+          </article>
 
-      <?php $karten = datebankhole() ?>
-      <h3> <?php echo $karten['auftrag'] ?></h3>
+</section>
 
-    </div>
-  </div>
 
+<!-- Wichtigste Button -->
+
+<section class="wichtigstebuttons">
 <div class="container">
   <div class="row">
     <div class="col-2">
@@ -45,18 +50,20 @@ shuffle($alleauftraege);
 
       <!-- Buttons -->
 
-      <a >
-        <button id="next" type="button" class="btn btn-success btn-lg btn-block"><h1>Next</h1></button>
+
+
+      <a id="next"><img src="/images/next.png" width="100%" height="100%"/></a>
+
+      <a href="<?php echo $base_url; ?>/subsite/spielregeln.php">
+        <button type="button" class="btn btn-secondary btn-lg btn-block"><h2 class="spielregeln">Spielregeln</h2></button>
       </a>
 
-      <a  href="<?php echo $base_url; ?>/subsite/spielregeln.php">
-        <button type="button" class="btn btn-danger btn-lg btn-block"><h2>Spielregeln</h2></button>
+
+      <a href="https://698387-16.web1.fh-htwchur.ch/">
+        <button type="button" class="btn btn-dark btn-lg btn-block"><h2 class="spielregeln">Home</h2></button>
       </a>
 
-      <a href="https://698387-16.web1.fh-htwchur.ch">
-        <button type="button" class="btn btn-secondary btn-block"><h2>Home</h2></button>
-      </a>
-
+    </article>
 
     </div>
     <div class="col-2">
@@ -64,9 +71,9 @@ shuffle($alleauftraege);
     </div>
   </div>
 </div>
+</section>
 
 
-<p id="auftrag">HALLOTOBI</p>
 
 
 

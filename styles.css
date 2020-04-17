@@ -1,6 +1,7 @@
 h1 {
   text-align: center;
   font-size: 200px;
+  font-family: 'Julius Sans One', sans-serif;
   color: white;
 }
 
@@ -11,19 +12,45 @@ h2 {
 }
 
 h3 {
-  color: grey;
-  font-size: 80px;
+  color: white;
+  font-size: 50px;
   text-align: center;
 
 }
 
+.spielregeln {
+  font-size: 50px;
+}
+
+.spielregeltext {
+  font-size: 60px;
+}
 
 p {
   text-align: center;
-  color: grey;
-  font-size: 120px;
+  color: white;
+  font-size: 80px;
+  font-family: 'Jura', sans-serif;
+  margin: 10vw;
 }
 
 body {
-  background-image: url(/images/Gradient.jpg);
+  background-image: url(images/bierbg.jpg.png);
+  background-size: unset;
+
+}
+
+.zumwohl {
+  font-size: 30px;
+  font-style: italic;
+  text-align: center;
+  color: white;
+}
+
+.wichtigstebuttons {
+  position: absolute;
+  top: 1000px;
+  right: 12%;
+
+
 }
